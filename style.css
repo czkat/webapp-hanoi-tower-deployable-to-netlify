@@ -121,6 +121,7 @@ select {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end; /* Ensure content is at the bottom */
 }
 
 .peg-structure {
@@ -157,8 +158,10 @@ select {
     align-items: center;
     position: relative;
     z-index: 2;
-    justify-content: flex-end; /* This will push disks to the bottom */
-    padding-bottom: 0;
+    justify-content: flex-start; /* Change from flex-end to flex-start */
+    padding-bottom: 5px; /* Add small padding to ensure disks sit on the base */
+    position: absolute;
+    bottom: 0; /* Position at the bottom of the container */
 }
 
 .disk {
