@@ -159,7 +159,7 @@ select {
     position: relative;
     z-index: 2;
     justify-content: flex-start; /* Change from flex-end to flex-start */
-    padding-bottom: 5px; /* Add small padding to ensure disks sit on the base */
+    padding-bottom: 8px; /* Add small padding to ensure disks sit on the base */
     position: absolute;
     bottom: 0; /* Position at the bottom of the container */
 }
